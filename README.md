@@ -13,7 +13,7 @@ provider "aws" {
   secret_key = "your_secret_key"
 }
 
-# Define AWS resources using the "AWS" provider
+## Define AWS resources using the "AWS" provider
 resource "aws_instance" "example_instance" {
   ami           = "ami-0c55b159cbfafe1f0"
   instance_type = "t2.micro"
